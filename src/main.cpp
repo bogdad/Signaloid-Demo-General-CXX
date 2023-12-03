@@ -19,7 +19,7 @@ main(int argc, char *  argv[])
 
 	std::adjacent_difference(vec.begin(), vec.end(), vec.begin());
 
-	std::cout << "Differences:" << std::endl;
+	std::cout << "Differences1:" << std::endl;
 	for (const auto& diff : vec)
 	{
 		std::cout << diff << std::endl;
