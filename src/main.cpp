@@ -11,6 +11,10 @@ main(int argc, char *  argv[])
 		UxHwDoubleUniformDist(1.0, 2.0),
 	};
 
+	for (int i=0; i < 1000; i++) {
+		vec.push_back(UxHwDoubleUniformDist(0.0, 2.0));
+	}
+
 	std::cout << "Initial distributions:" << std::endl;
 	for (const auto& dist : vec)
 	{
